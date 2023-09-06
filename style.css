@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.topContainer{
+    background-color: purple;
+    display: inline-block;
+    
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.inputOutput {
+    display: flex;
+    justify-content: center;
+}
+.calcButtons{
+    display:flex;
+    justify-content: space-between;
+    width: 230px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    margin: 4px;
+}
+button {
+    height:40px;
+    width:55px;
+}
