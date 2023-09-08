@@ -8,7 +8,7 @@
 - Mostly it was a time consuming process of getting all of the event listeners to work.
 - I finished off by adding a clear button and then some functionality that allows equations to be made out of completed solutions.
 # Link
-
+[Calculator](https://alphastranger.github.io/Calculator/)
 # Preview
 
 ![preview](./images/Screenshot.png)
