@@ -14,6 +14,7 @@ const buttonDot = document.querySelector('#buttDot')
 const buttonZero = document.querySelector('#buttZero')
 const buttonSlash = document.querySelector('#buttSlash')
 const buttonSub = document.querySelector('#buttSub')
+const buttonClear = document.querySelector('#buttClear')
 const outputBar = document.querySelector('#output')
 let inputArr = ""
 console.log(buttonOne)
@@ -28,6 +29,10 @@ function submitCommand(input){
     let equation = eval(input)
     console.log(equation)
     outputBar.value=equation
+}
+function clearBar(){
+    outputBar.value=''
+    inputArr = ""
 }
 buttonOne.addEventListener("click", function(){addNumb(1)})
 buttonTwo.addEventListener('click', function(){addNumb(2)})
@@ -45,3 +50,4 @@ buttonStar.addEventListener('click', function(){addNumb("*")})
 buttonSlash.addEventListener('click', function(){addNumb("/")})
 buttonDot.addEventListener('click', function(){addNumb(".")})
 buttonSub.addEventListener('click', function(){submitCommand(inputArr)})
+buttonClear.addEventListener('click', function(){clearBar()})
