@@ -3,8 +3,9 @@ body {
     justify-content: center;
 }
 .topContainer{
-    background-color: purple;
+    background-color: rgb(56, 56, 106);
     display: inline-block;
+    border-radius: 4px;
     
 }
 h1 {

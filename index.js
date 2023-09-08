@@ -29,6 +29,7 @@ function submitCommand(input){
     let equation = eval(input)
     console.log(equation)
     outputBar.value=equation
+    inputArr =equation
 }
 function clearBar(){
     outputBar.value=''
