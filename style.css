@@ -29,3 +29,15 @@ button {
     height:40px;
     width:55px;
 }
+.bottomButtons {
+    display:flex;
+    flex-direction: column;
+}
+#buttSub{
+    height:20px;
+    margin-bottom: 0px;
+}
+#buttClear{
+    height:20px;
+    margin-top:0px;
+}
