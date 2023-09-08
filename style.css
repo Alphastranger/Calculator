@@ -1,12 +1,16 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: url(./images/Background.jpg);
+    background-size:cover;
 }
 .topContainer{
     background-color: rgb(56, 56, 106);
     display: inline-block;
     border-radius: 4px;
-    
+    padding: 10px;
+    border: 1px solid grey;
 }
 h1 {
     display: flex;
