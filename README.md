@@ -7,3 +7,8 @@
 - The JavaScript wasn't particularly complex, as it was mostly just getting buttons to work and then setting it up so that the program runs the strings as number equations.
 - Mostly it was a time consuming process of getting all of the event listeners to work.
 - I finished off by adding a clear button and then some functionality that allows equations to be made out of completed solutions.
+# Link
+
+# Preview
+
+![preview](./images/Screenshot.png)
